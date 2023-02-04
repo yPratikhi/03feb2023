@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/assets/bgImg.png); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+    margin: 55px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style:none;
+    font-family: "Red rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffc233;
+}
+.logo,.list{
+    cursor: pointer;
+}
+/*  */
+.button-small{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 6px;
+    color: #f2f2f2;
+    font-size: 20px;
+    background: #ff505f;
+    padding: 12px 20px 10px 20px;
+    border: solid #121010 1px;
+    text-decoration: none;
+}
+.button-small:hover{
+    background: #ffffff;
+    text-decoration: none;
+    color: #121010;
+}
+
+/* Hero Section */
+
+.hero-heading{
+    display: flex;
+    justify-content: center;
+
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 114px;
+    color: #ffc233;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+.button-large{
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 21px;
+    background: #ff505f;
+    padding: 11px 20px 10px 20px;
+    border: solid #111212 1px;
+    text-decoration: none;
+}
+.button-large:hover{
+    background: #eaeff2;
+    text-decoration: none;
+    color: #111212;
+}
+.bottom{
+    position: absolute;
+    padding-top: 50px;
+    right: 40px;
+}
